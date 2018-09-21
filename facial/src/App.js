@@ -8,6 +8,11 @@ import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 
 const particlesOptions = {
                 particles: {
+                  number:{
+                    value: 70,
+                    density: {
+                      enable: true,
+                      value_area: 700,
                   line_linked: {
                     shadow: {
                       enable: true,
@@ -17,6 +22,10 @@ const particlesOptions = {
                   }
                 }
               }
+            }
+          }
+            
+          
             
 class App extends Component {
   render() {
